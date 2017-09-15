@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         //增加数据
         Person p2 = new Person();
-        p2.setName("lucky");
+        p2.setName("luck");
         p2.setAddress("北京海淀");
         p2.save(new SaveListener<String>() {
             @Override
